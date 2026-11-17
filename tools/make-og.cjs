@@ -15,8 +15,8 @@ const K = require(path.join(__dirname, "..", "data.js"));
       <div style="font-size:36px;margin-top:14px">幼い子なら？<br>犬なら？</div>
     </div>
     <div style="flex:1;background:#fffdf7;border:4px solid #1d2a3f;border-radius:8px;overflow:hidden">
-      <div style="font-size:30px;font-weight:700;padding:22px 20px 6px">🧸 4歳の子が人の窓を割った。子どもは？</div>
-      <div style="display:flex;flex-direction:column;gap:10px;padding:16px">${line("子どもが全部賠償する")}${line("子ども自身は責任を負わない", 1)}${line("大人になってから払う")}</div>
+      <div style="font-size:30px;font-weight:700;padding:22px 20px 6px">🧸 責任がまだ分からない4歳の子が、人の窓を割った。子どもは？</div>
+      <div style="display:flex;flex-direction:column;gap:10px;padding:16px">${line("子ども自身が全部賠償する")}${line("子ども自身は賠償の責任を負わない", 1)}${line("大人になってから子ども自身が払う")}</div>
     </div>
   </div></body>`);
   await p.screenshot({ path: path.join(__dirname, "..", "og.png") });
